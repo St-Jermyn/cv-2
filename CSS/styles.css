@@ -3,13 +3,15 @@ body {
   margin: 0;
   text-align: center;
   color: #40514E;
+ left: 30px;
 }
 
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.62rem;
   margin: 50px auto 100px auto;
-  color: #66BFBF;
+  color: #e2eeee;
+  text-shadow: 2px 2px #140f0f;
 }
 
 h2 {
@@ -43,14 +45,19 @@ a{
 a:hover{
   color:#eaf6f6;
 }
+
 .top-container {
   background-color: #EAF6F6;
   padding-top: 100px;
   position: relative;
+  background-image: url(mountains.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 }
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   display: inline-block;
   text-align: left;
 }
@@ -64,7 +71,7 @@ a:hover{
   color: #11999E;
   width: 25%;
   float: left;
-  margin-right: 30px;
+ 
 }
 
 .rubic-cube {
@@ -76,7 +83,7 @@ a:hover{
 }
 
 .middle-container {
-  margin: 100px 0
+  margin: 50px 0
 }
 
 .bottom-container {
@@ -89,9 +96,11 @@ a:hover{
 }
 
 .pro-grammer {
-  color: #66BFBF;
+  color: #eaf5f5;
   font-size: 2.5rem;
   font-weight: normal;
+  padding-bottom: 30px;
+  text-shadow: 2px 2px #0a0606;
 }
 
 .contact-message {
@@ -150,4 +159,41 @@ a:hover{
 .btn:active {
   position: relative;
   top: 1px;
+}
+
+.navbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding 0;
+  background-color: #75d3d3;
+
+}
+
+.nav-item{
+  font-family:  'Zilla Slab', serif;
+  font-weight: 400;
+  font-size: 16px;
+  color:#EAF6F6
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+li{
+  display: inline;
+}
+.h1-aboutMe{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  margin: 50px auto 100px auto;
+  color: #244d4d;
+  text-shadow: 2px 2px #140f0f;
+}
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
